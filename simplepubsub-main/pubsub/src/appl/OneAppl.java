@@ -12,7 +12,7 @@ import core.Message;
 
 
 public class OneAppl {
-	// usa a porta e endereço padrão do broker
+	
     public static String managerIp = "localhost";
     public static int    managerPort = 8080;
     public        String[] resources = {"var X", "var Y", "var Z"};
@@ -30,7 +30,7 @@ public class OneAppl {
     public OneAppl(boolean flag) throws Exception {
         reader = new Scanner(System.in);
         
-        // pega as infos do usuário
+
         System.out.print("Enter the Client port number: ");
         int clientPort = reader.nextInt();
 
