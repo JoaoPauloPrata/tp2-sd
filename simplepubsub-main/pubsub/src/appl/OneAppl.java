@@ -14,7 +14,7 @@ import core.Message;
 public class OneAppl {
 	
     public static String managerIp = "34.133.52.42";
-    public static int    managerPort = "8080";
+    public static int    managerPort = 8080;
     public        String[] resources = {"var X", "var Y", "var Z"};
     public        String identifier;
 
