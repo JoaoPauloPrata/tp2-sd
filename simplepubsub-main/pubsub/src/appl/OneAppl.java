@@ -13,7 +13,7 @@ import core.Message;
 
 public class OneAppl {
 	
-    public static String managerIp = "34.133.52.42";
+    public static String managerIp = "10.128.0.4";
     public static int    managerPort = 8080;
     public        String[] resources = {"var X", "var Y", "var Z"};
     public        String identifier;
@@ -106,7 +106,7 @@ public class OneAppl {
         public String varName;
         public int port;
 
-        public String backupId = "34.133.52.42";
+        public String backupId = "10.128.0.4";
         public int backupPort = 8081;
 
         public ThreadWrapper(PubSubClient c, String msg, String host, int port, String identifier, String varName) {
