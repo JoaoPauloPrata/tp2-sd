@@ -48,7 +48,7 @@ public class OneAppl {
         }
 
         try {
-            internalIp = "10.128.0.3";
+            internalIp = InetAddress.getLocalHost().getHostAddress();
         } catch (Exception e) {
             e.printStackTrace();
         }
