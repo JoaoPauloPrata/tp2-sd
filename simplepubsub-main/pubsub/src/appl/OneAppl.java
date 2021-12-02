@@ -13,7 +13,7 @@ import core.Message;
 
 public class OneAppl {
 	
-    public static String managerIp = "localhost";
+    public static String managerIp = "10.128.0.4";
     public static int    managerPort = 8080;
     public        String[] resources = {"var X", "var Y", "var Z"};
     public        String identifier;
