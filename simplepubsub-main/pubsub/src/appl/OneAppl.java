@@ -146,7 +146,7 @@ public class OneAppl {
                         Message aux = it.next();
                         String message = aux.getContent();
 
-                        boolean showLogMessage = Character.isDigit(message.charAt(0)) || message.startsWith("34.133.52.42");
+                        boolean showLogMessage = Character.isDigit(message.charAt(0)) || message.startsWith("localhost");
                         if (showLogMessage) {
                             continue;
                         }
